@@ -6,7 +6,7 @@
 
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="style.css">
   <!-- Fonts from google -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,36 +20,47 @@
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
-<body>
+<body >
 
   <!-- Comment #1 -->
+<div class="comment">
   12
-  <img src="./images/avatars/image-amyrobson.png" alt="profile" />
-  amyrobson 
-  1 month ago
-  Impressive! Though it seems the drag feature could be improved. But overall it looks incredible. You've nailed the design and the responsiveness at various breakpoints works really well.
+  <img src="./images/avatars/image-amyrobson.png" alt="profile" class="profile-image"/>
+  <span class="username">amyrobson</span> 
+  <span class="timestamp">1 month ago</span>
+  <span class="reply">→ Reply</span>
 
+  <p class="comment-body"> Impressive! Though it seems the drag feature could be improved. But overall it looks incredible. You've nailed the design and the responsiveness at various breakpoints works really well.</p>
+</div>
   <!-- Comment #2 -->
+  <div class="comment">
   5
-  <img src="./images/avatars/image-maxblagun.png" alt="profile" />
-  maxblagun 
-  2 weeks ago
-  Woah, your project looks awesome! How long have you been coding for? I'm still new, but think I want to dive into React as well soon. Perhaps you can give me an insight on where I can learn React? Thanks!
+  <img src="./images/avatars/image-maxblagun.png" alt="profile" class="profile-image"/>
+  <span class="username">maxblagun</span> 
+  <span class="timestamp"> 2 weeks ago</span>
+  <p class="comment-body">Woah, your project looks awesome! How long have you been coding for? I'm still new, but think I want to dive into React as well soon. Perhaps you can give me an insight on where I can learn React? Thanks!</p>
+</div>
 
   <!-- Comment #3 (Reply to comment #2) -->
+  <span class="reply-comment">
+  <div class="comment">
   4
-  <img src="./images/avatars/image-ramsesmiron.png" alt="profile" />
-  ramsesmiron 
-  1 week ago
-  @maxblagun If you're still new, I'd recommend focusing on the fundamentals of HTML, CSS, and JS before considering React. It's very tempting to jump ahead but lay a solid foundation first.
-
+  <img src="./images/avatars/image-ramsesmiron.png" alt="profile" class="profile-image" />
+  <span class="username"> ramsesmiron</span> 
+  <span class="timestamp"> 1 week ago</span>
+  <p class="comment-body">@maxblagun If you're still new, I'd recommend focusing on the fundamentals of HTML, CSS, and JS before considering React. It's very tempting to jump ahead but lay a solid foundation first.</p>
+</div>
+</span>
   <!-- Comment #4 (Reply to comment #2) -->
+  <span class="reply-comment">
+  <div class="comment"> 
   2
-  <img src="./images/avatars/image-juliusomo.png" alt="profile" />
-  juliusomo 
-  2 days ago
-  @ramsesmiron I couldn't agree more with this. Everything moves so fast and it always seems like everyone knows the newest library/framework. But the fundamentals are what stay constant.
-
+  <img src="./images/avatars/image-juliusomo.png" alt="profile" class="profile-image"/>
+  <span class="username"> juliusomo </span>
+  <span class="timestamp"> 2 days ago</span>
+  <p class="comment-body"> @ramsesmiron I couldn't agree more with this. Everything moves so fast and it always seems like everyone knows the newest library/framework. But the fundamentals are what stay constant.</p>
+</div>
+</span>
 
   
   <div class="attribution">

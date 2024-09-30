@@ -1,0 +1,42 @@
+.username{
+color: hsl(212, 24%, 26%);
+font-weight: bold;
+}
+
+.timestamp{
+    color:hsl(211, 10%, 45%)
+}
+
+
+body{
+    background-color: hsl(228, 33%, 97%);
+}
+
+
+.comment {
+    background-color: white;
+    padding: 20px; 
+    margin: 20px auto; 
+    border-radius: 10px;
+    width: 60%; 
+}
+.reply {
+    color:  hsl(238, 40%, 52%);
+    font-weight: bold;
+    justify-content: flex-end;
+    font-family:Rubik; 
+
+}
+.comment-body {
+    margin-top: 10px;
+    color:hsl(211, 10%, 45%);
+}
+.profile-image {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.reply-comment {
+
+}
